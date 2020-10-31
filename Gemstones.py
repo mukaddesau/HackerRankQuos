@@ -1,4 +1,16 @@
-#!/bin/python3
+'''
+File Name : Gemstones.py
+Author : Mukaddes Altuntas
+
+Created On : 31/10/2020
+
+Version : Pyhton 3.7.5
+
+Copyright (c) 2020 Mukaddes Altuntas. All rights reserved.
+
+Description : This program finds the number of common letters in multiple strings. 
+              In this program, the code theme of HackerRank for Python is used without changing. 
+'''
 
 import math
 import os
