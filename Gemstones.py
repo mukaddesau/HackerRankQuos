@@ -27,7 +27,7 @@ def gemstones(arr):
                     #  ({'a':0, 'b':0 ....})
     for word in arr:
         # Add a letter dictionary of that word to the complete letter dictionary.
-        # The counter helps us to sum of the occurance of a letter when we merge two 
+        # The counter helps us to compute sum of the occurance of a letter when we merge two 
         # dictionaries into one.
         # word1 = {'a': 1, 'b': 1}
         # word2 = {'b': 1, 'c': 1}
