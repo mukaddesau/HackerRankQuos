@@ -23,10 +23,8 @@ def maxSubsetSum(arr):
     
     '''for each element there are two options:
         1. Add the current element to the sum.
-        2. Do not add the current element. Choose
-        the max of the previous sums. Previous sums
-        are 'included previous element sum' and 
-        'excluded previous elemen sum'.    '''
+        2. Do not add the current element. Choose the max of the previous sums. Previous sums
+        are 'included previous element sum' and 'excluded previous elemen sum'.    '''
         
     excluded_sum = 0 # keeps the sum excluding previous element.
     included_sum = arr[0] # keeps the sum including previous element. 
