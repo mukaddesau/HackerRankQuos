@@ -1,5 +1,5 @@
 '''
-File Name : Gemstones.py
+File Name : BeautifulBinaryString.py
 Author : Mukaddes Altuntas
 
 Created On : 10/10/2020
