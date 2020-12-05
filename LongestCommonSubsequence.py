@@ -12,7 +12,7 @@ Description : This program finds the longest subsequences between two strings us
 			  The subsequence does not have to consist of consecutive letters but,
 			  order of letters is important. 
 			  The longest common subsequence is a dynamic programming problem which is solved by tabulation method.
-			  Tabulation is bottom-up technique in which is table-filling.
+			  The tabulation is a bottom-up technique in which is table-filling.
 '''
 
 import numpy as np
