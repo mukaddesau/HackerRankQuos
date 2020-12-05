@@ -1,5 +1,5 @@
 '''
-File Name : FibonacciNumbersIterative.py
+File Name : FibonacciNumbersMemoization.py
 Author : Mukaddes Altuntas
 
 Created On : 05/12/2020
