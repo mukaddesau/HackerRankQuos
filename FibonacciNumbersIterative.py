@@ -29,7 +29,9 @@ def FibonacciNumbersIterative(n):
 	# fibonacci[6] = fibonacci[4] + fibonacci[5]
 	# fibonacci[7] = fibonacci[5] + fibonacci[6]
 	# ................
-	# We can find the nth fibonacci number to top from bottom step by step.
+	# We can find the nth fibonacci number to up from down step by step.
+	# We use the TABULATION (BOTTOM-UP) technique in which solved subproblems
+	# in a sequence to bigger from smaller. 
 	for i in range (n-2):
 		fibonacciNumbers[i+2] = fibonacciNumbers[i] + fibonacciNumbers[i+1]
 
