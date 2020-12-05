@@ -46,7 +46,7 @@ while True:
 		fibonacciN = FibonacciNumbersRecursive(n)
 
 		print("************************************************************")
-		print("The nth Fibonacci number: ", fibonacciN)
+		print("The {}th Fibonacci number: {}".format(n,fibonacciN))
 		print("************************************************************")
 
 	elif userChoice is 2:
