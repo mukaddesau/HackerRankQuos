@@ -22,6 +22,9 @@ Description : This program finds the n'th fibonacci number using recursion.
 # fibonacci[6] = fibonacci[4] + fibonacci[5]
 # fibonacci[7] = fibonacci[5] + fibonacci[6]
 # .............
+# Time complexity = O(2^n)
+# Space complexity = O(n)
+
 
 def FibonacciNumbersRecursive(n):
 	if n <= 2:
