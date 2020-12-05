@@ -16,7 +16,7 @@ Description : This program finds the n'th fibonacci number iteratively.
 
 # We can find the nth fibonacci number to up from down step by step.
 # We use the TABULATION (BOTTOM-UP) technique in which solved subproblems
-# in a sequence to bigger from smaller.
+# in a sequence to bigger from smaller. So, it is faster than recursive approach.
 # This technique is implemented similarly to memoization(top-down) method but, in reversely.
 
 import numpy as np 
