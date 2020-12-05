@@ -18,6 +18,7 @@ Description : This program finds the n'th fibonacci number using one of the dyna
 # We can find the nth fibonacci number to down from top step by step.
 # We use the MEMOIZATION (TOP-DOWN) technique in which results of overlapping subproblems
 # are cached and then they are reused later without recomputing. 
+# So, this tecnique is pretty faster than recursive approach.
 
 # memo dictionary is created as default even if the user does not give it as an argument to the function.
 def FibonacciNumbersMemoization(n, memo = {}):
