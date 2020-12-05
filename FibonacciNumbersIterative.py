@@ -31,7 +31,8 @@ def FibonacciNumbersIterative(n):
 	# ................
 	# We can find the nth fibonacci number to up from down step by step.
 	# We use the TABULATION (BOTTOM-UP) technique in which solved subproblems
-	# in a sequence to bigger from smaller. 
+	# in a sequence to bigger from smaller.
+	# This technique is implemented similarly to memoization(top-down) method but, in reversely.
 	for i in range (n-2):
 		fibonacciNumbers[i+2] = fibonacciNumbers[i] + fibonacciNumbers[i+1]
 
@@ -52,7 +53,7 @@ while True:
 		fibonacciN = FibonacciNumbersIterative(n)
 
 		print("************************************************************")
-		print("The nth Fibonacci number: ", fibonacciN)
+		print("The {}th Fibonacci number: {}".format(n,fibonacciN))
 		print("************************************************************")
 
 	elif userChoice is 2:
